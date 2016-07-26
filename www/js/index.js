@@ -28,7 +28,7 @@ var app = {
             },
             android: {
                 banner: 'ca-app-pub-8011156115442225/9798566195',
-                interstitial: 'ca-app-pub-9863325511078756/2279080628'
+                interstitial: 'ca-app-pub-8011156115442225/3752032590'
             }
         };
         var admobid;
