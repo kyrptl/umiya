@@ -34,7 +34,7 @@
 
 
 <div class="player">
-	<audio controls autoplay loop>
+	<audio controls autoplay loop id="myVideo">
 	  <source src="umiyamaa.mp3" type="audio/mpeg">
 	</audio>
 </div>
@@ -47,6 +47,12 @@
     app.initialize();
   </script>
   
+<script>
+var vid = document.getElementById("myVideo");
+vid.onpause = function() {
+    app.requestInterstitial(true);
+};
+</script>
   
 <script>
 	$(function () {
